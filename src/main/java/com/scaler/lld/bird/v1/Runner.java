@@ -1,8 +1,8 @@
 package com.scaler.lld.bird.v1;
 
-import com.scaler.lld.bird.BirdType;
-import com.scaler.lld.bird.Colour;
-import com.scaler.lld.bird.Size;
+import com.scaler.lld.bird.v0.BirdType;
+import com.scaler.lld.bird.v0.Colour;
+import com.scaler.lld.bird.v0.Size;
 
 public class Runner {
     public static void main(String[] args){
