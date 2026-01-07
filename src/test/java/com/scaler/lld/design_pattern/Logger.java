@@ -1,6 +1,6 @@
 package com.scaler.lld.design_pattern;
 
-import com.scaler.lld.design_patterns.LogWritter;
+import com.scaler.lld.design_patterns.singleton.LogWritter;
 import org.junit.jupiter.api.Test;
 
 

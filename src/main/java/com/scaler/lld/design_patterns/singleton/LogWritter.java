@@ -1,4 +1,4 @@
-package com.scaler.lld.design_patterns;
+package com.scaler.lld.design_patterns.singleton;
 
 public class LogWritter {
     //Egger Initialization
