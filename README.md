@@ -1,1 +1,1 @@
-https://github.com/kanmaytacker/fundamentals/tree/master Notes from Instructor
+Fundamentals of Language (SOLID):  https://github.com/kanmaytacker/fundamentals/tree/master
