@@ -3,9 +3,6 @@ package com.scaler.lld.bird.v3;
 import com.scaler.lld.bird.v0.BirdType;
 import com.scaler.lld.bird.v0.Colour;
 import com.scaler.lld.bird.v0.Size;
-import com.scaler.lld.bird.v3.Sparrow;
-import com.scaler.lld.bird.v3.Eagle;
-import com.scaler.lld.bird.v3.Penguin;
 
 import java.util.List;
 

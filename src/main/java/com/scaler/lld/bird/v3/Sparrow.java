@@ -17,8 +17,4 @@ public class Sparrow implements Flyable {
 
     }
 
-//    @Override
-//    void fly() {
-//        System.out.println("Sparrow is flying");
-//    }
 }
