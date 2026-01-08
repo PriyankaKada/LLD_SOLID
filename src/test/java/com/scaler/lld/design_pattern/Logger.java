@@ -4,15 +4,15 @@ import com.scaler.lld.design_patterns.singleton.LogWritter;
 import org.junit.jupiter.api.Test;
 
 
-import static org.springframework.test.util.AssertionErrors.assertEquals;
-import static org.springframework.test.util.AssertionErrors.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 public class Logger {
 
     @Test
     public void testConstructor(){
         LogWritter logger = LogWritter.getINSTANCE();
-        assertNotNull("If the constructor was called, a non null object should be created",logger);
+        assertNotNull( logger);
     }
 
     @Test
@@ -20,6 +20,6 @@ public class Logger {
         LogWritter logWritter =LogWritter.getINSTANCE();
         LogWritter logWritter2 =LogWritter.getINSTANCE();
 
-        assertEquals("if singleton only one instance is created", logWritter,logWritter2);
+        assertEquals(logWritter,logWritter2);
     }
 }
